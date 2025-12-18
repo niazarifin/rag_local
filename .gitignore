@@ -179,3 +179,17 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# macOS
+.DS_Store
+
+# IDEs / editors
+.idea/
+.vscode/
+
+# Ollama / local model runtime
+.ollama/
+models/
+
+# Local logs
+*.log
