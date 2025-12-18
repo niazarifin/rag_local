@@ -1,0 +1,6 @@
+numpy
+pymongo
+python-dotenv
+certifi
+ollama
+dnspython
