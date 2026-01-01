@@ -5,6 +5,8 @@ Analogy: MongoDB opens a connection to the filing cabinet.
     - selects a database
     - exposes chunks_col (my collection handle)
 Loads environment variables from a .env file.
+How to run this file:
+(.venv) $ python3 ./src/config.py
 """
 
 import os
@@ -24,9 +26,14 @@ if not MONGODB_URI:
 
 mongo_client = MongoClient(
     MONGODB_URI,
+    tls=True,
     tlsCAFile=certifi.where(),
-    serverSelectionTimeoutMS=10000,
+    # ssl_cert_reqs=CERT_NONE
+    serverSelectionTimeoutMS=30000,
+    connectTimeoutMS=30000,
+    socketTimeoutMS=30000,
 )
+
 mongo_client.admin.command("ping")
 
 db = mongo_client[DB_NAME]

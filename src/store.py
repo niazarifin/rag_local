@@ -11,6 +11,9 @@ This is the Knowledge base.
     - does NOT modify chunks
     - does NOT combine them with questions
     - does NOT talk to the LLM
+
+How to run this file:
+(.venv) $ python3 ./src/store.py
 """
 
 from typing import List
@@ -31,6 +34,7 @@ def seed_chunks(chunks: List[str], source: str = "demo") -> None:
 
 if __name__ == "__main__":
     demo_chunks = [
+        "RAG, or Retrieval-Augmented Generation, is an AI technique that improves Large Language Models (LLMs) by letting them access and use external, real-time information (like company documents or the web) before generating an answer, making responses more accurate, specific, and grounded in facts, rather than relying solely on their static training data. It works by first retrieving relevant information from a knowledge base, then augmenting the user's prompt with that data, and finally, the LLM uses all this context to generate a better, fact-checked response.",
         "RAG stands for Retrieval-Augmented Generation, a technique that combines information retrieval with text generation.",
         "RAG enhances Large Language Models by retrieving relevant external documents and injecting them into the prompt at inference time.",
         "RAG reduces hallucinations by grounding model responses in retrieved, authoritative context rather than relying solely on model memory.",

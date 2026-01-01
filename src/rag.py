@@ -34,6 +34,7 @@ if __name__ == "__main__":
 
 # Ask a question: what is RAG?
 # Ask a question: How does RAG work?
+
 # That “stuck” moment is almost certainly Ollama still generating — 
 # your program has already printed retrieval, and it’s now waiting for ollama.generate(...) to return. 
 # For some models / first run, that can take a while (model load + generation).
