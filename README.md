@@ -2,6 +2,9 @@
 
 This repository implements a small, self-contained Retrieval-Augmented Generation (RAG) demo that uses a MongoDB-backed knowledge store and a local LLM (via Ollama) for generation.
 
+<img width="835" height="561" alt="rag_llm_local drawio" src="https://github.com/user-attachments/assets/4960ca0f-9c97-4693-858f-efafdfd928a0" />
+
+
 Files
 -	requirements.txt — Python dependencies (numpy, pymongo, python-dotenv, certifi, ollama, dnspython).
 -	.env — Environment variables (not committed). See "Environment" below for required keys.
