@@ -7,8 +7,8 @@ Use this script to test your connection to MongoDB Atlas.
 import certifi
 from pymongo import MongoClient
 
-# MONGODB_URI = "YOUR_MONGODB_URI_HERE"  # keep mongodb+srv:// if using Atlas
-MONGODB_URI="mongodb+srv://arifin_db_user:fQXYZfkFVdbLlvp9@arif-cluster.zs0vufz.mongodb.net/?appName=arif-Cluster"
+MONGODB_URI = "YOUR_MONGODB_URI_HERE"  # keep mongodb+srv:// if using Atlas
+
 
 def main():
     client = MongoClient(
