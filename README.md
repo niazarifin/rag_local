@@ -11,17 +11,17 @@ Highlights:
 The system retrieves contextually relevant documents and injects them into the prompt to generate grounded, context-aware responses.
 
 Best things about it? 
-✅ No GPU needed - it's a POC that you can easily scale later 
-✅ No paid subscription needed - just Use Ollama for now (until you're ready to ship to production)
+ - ✅ No GPU needed - it's a POC that you can easily scale later 
+ - ✅ No paid subscription needed - just Use Ollama for now (until you're ready to ship to production)
 
 Focus areas:
- ✅ Retrieval relevance
- ✅ Response grounding
- ✅ Hallucination reduction
- ✅ Modular ML system design
+ - ✅ Retrieval relevance
+ - ✅ Response grounding
+ - ✅ Hallucination reduction
+ - ✅ Modular ML system design
 
 
-hashtag#LLM hashtag#GenerativeAI hashtag#RAG hashtag#MachineLearning hashtag#DataScience
+#LLM #GenerativeAI #RAG #MachineLearning #DataScience
 
 <img width="835" height="561" alt="rag_llm_local drawio" src="https://github.com/user-attachments/assets/4960ca0f-9c97-4693-858f-efafdfd928a0" />
 
