@@ -2,6 +2,27 @@
 
 This repository implements a small, self-contained Retrieval-Augmented Generation (RAG) demo that uses a MongoDB-backed knowledge store and a local LLM (via Ollama) for generation.
 
+Highlights:
+ - MongoDB-backed knowledge store
+ - Embedding-based semantic retrieval
+ - Vector similarity search
+ - Local LLM inference via Ollama
+
+The system retrieves contextually relevant documents and injects them into the prompt to generate grounded, context-aware responses.
+
+Best things about it? 
+✅ No GPU needed - it's a POC that you can easily scale later 
+✅ No paid subscription needed - just Use Ollama for now (until you're ready to ship to production)
+
+Focus areas:
+ ✅ Retrieval relevance
+ ✅ Response grounding
+ ✅ Hallucination reduction
+ ✅ Modular ML system design
+
+
+hashtag#LLM hashtag#GenerativeAI hashtag#RAG hashtag#MachineLearning hashtag#DataScience
+
 <img width="835" height="561" alt="rag_llm_local drawio" src="https://github.com/user-attachments/assets/4960ca0f-9c97-4693-858f-efafdfd928a0" />
 
 
